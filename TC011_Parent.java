@@ -49,7 +49,8 @@ public class TC011_Parent {
 			WebElement elem = driver.findElement(by);  
 			
 			if (driver instanceof JavascriptExecutor) 
-			{
+			
+{
 			 ((JavascriptExecutor)driver).executeScript("arguments[0].style.border='3px solid red'", elem);
 		 
 			}

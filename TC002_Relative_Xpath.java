@@ -48,7 +48,8 @@ public class TC002_Relative_Xpath {
 			WebElement elem = driver.findElement(by);  
 			
 			if (driver instanceof JavascriptExecutor) 
-			{
+			
+{
 			 ((JavascriptExecutor)driver).executeScript("arguments[0].style.border='3px solid red'", elem);
 		 
 			}
